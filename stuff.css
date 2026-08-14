@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+body {
+    background: rgb(1, 70, 47)
+}
+
+.listimage {
+    float:left;
+    margin-right: 20px
+}
+.imagedescription {
+   
+    color: rgb(255,255,255)
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.topbar {
+   
+    background: rgb(0, 128, 85);
+    align-items: center;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(255, 252, 252);
+    margin-bottom: 20px;
+}
