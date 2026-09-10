@@ -41,6 +41,13 @@ body {
     min-height: 40px;
 }
 
+.dividerbar {
+    background: rgb(0, 128, 85);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    min-height: 20px;
+}
+
 li {
     line-height: 175%;
 }
