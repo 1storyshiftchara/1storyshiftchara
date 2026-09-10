@@ -11,10 +11,10 @@ body {
     margin-right: 20px
 }
 .imagedescription {
-   
     color: rgb(255,255,255)
-
 }
+
+
 .row:after {
     content: "";
     display: table;
@@ -30,4 +30,19 @@ body {
     font-size: 2vw;
     color: rgb(255, 252, 252);
     margin-bottom: 20px;
+}
+
+li {
+    line-height: 150%;
+}
+.videocontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+video {
+    width: 19%;
+    aspect-ratio: 16/9;
+    margin: 1px;
+    margin-bottom: 10px;
 }
