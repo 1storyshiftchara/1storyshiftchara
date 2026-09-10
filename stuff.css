@@ -2,6 +2,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 88px;
+  scrollbar-width: 1vw;
 }
 body {
     background: rgb(1, 70, 47);
@@ -42,6 +43,8 @@ body {
     color: rgb(255, 252, 252);
     margin-bottom: 1vw;
     min-height: 2vw;
+    margin-left: -.3vw;
+    width: 99vw;
 }
 
 .dividerbar {
