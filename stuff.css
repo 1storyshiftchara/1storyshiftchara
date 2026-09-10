@@ -10,13 +10,16 @@ body {
 
 .listimage {
     float:left;
-    margin-right: 25px;
+    margin-right: 1.3vw;
+    width: 50%;
 }
 .imagedescription {
-    font-size: 150%;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
     color: rgb(255,255,255)
 }
 .imagedescriptionlist {
+    font-size: .8vw;
     color: rgb(255,255,255)
 }
 
@@ -37,20 +40,28 @@ body {
     text-align: center;
     font-size: 2.5vw;
     color: rgb(255, 252, 252);
-    margin-bottom: 20px;
-    min-height: 40px;
+    margin-bottom: 1vw;
+    min-height: 2vw;
 }
 
 .dividerbar {
     background: rgb(0, 128, 85);
-    margin-top: 10px;
-    margin-bottom: 15px;
-    min-height: 20px;
+    margin-top: .5vw;
+    margin-bottom: .75vw;
+    min-height: 1vw;
 }
 
 li {
-    line-height: 175%;
+    line-height: 1.4vw;
 }
+
+
+a {
+    color:rgb(255, 158, 218)
+}
+
+
+
 .videocontainer {
     display: flex;
     justify-content: space-around;
@@ -60,8 +71,5 @@ video {
     width: 19%;
     aspect-ratio: 16/9;
     margin: 1px;
-    margin-bottom: 10px;
-}
-a {
-    color:rgb(255, 158, 218)
+    margin-bottom: .5vw;
 }
