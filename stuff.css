@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 88px;
@@ -8,29 +10,6 @@ body {
     background: rgb(1, 70, 47);
     font-family: 'DM Sans', system-ui, sans-serif;
 }
-
-.listimage {
-    float:left;
-    margin-right: 1.3vw;
-    width: 50%;
-}
-.imagedescription {
-    font-size: 1.5vw;
-    line-height: 1.8vw;
-    color: rgb(255,255,255)
-}
-.imagedescriptionlist {
-    font-size: .8vw;
-    color: rgb(255,255,255)
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
 
 
 
@@ -47,22 +26,38 @@ body {
     width: 99vw;
 }
 
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.listimage {
+    float:left;
+    margin-right: 1.3vw;
+    width: 50%;
+}
+.imagedescription {
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+    color: rgb(255,255,255)
+}
+.imagedescriptionlist {
+    font-size: .8vw;
+    color: rgb(255,255,255)
+}
+li {
+    line-height: 1.4vw;
+}
+
+
 .dividerbar {
     background: rgb(0, 128, 85);
     margin-top: .5vw;
     margin-bottom: .75vw;
     min-height: 1vw;
 }
-
-li {
-    line-height: 1.4vw;
-}
-
-
-a {
-    color:rgb(255, 158, 218)
-}
-
 
 
 .videocontainer {
@@ -75,4 +70,11 @@ video {
     aspect-ratio: 16/9;
     margin: 1px;
     margin-bottom: .5vw;
+}
+
+
+
+
+a {
+    color:rgb(255, 158, 218)
 }
